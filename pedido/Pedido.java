@@ -1,4 +1,4 @@
-package MainApp.pedido;
+package pedido;
 
 import java.util.ArrayList;
 
@@ -22,9 +22,7 @@ public class Pedido {
     public ArrayList<Item> getItens() {
         return itens;
     }
-    public void setItens(ArrayList<Item> itens) {
-        this.itens = itens;
-    }
+    
     public Float getValorTotal() {
         Float total = 0f;
         for(Item item : getItens()) {

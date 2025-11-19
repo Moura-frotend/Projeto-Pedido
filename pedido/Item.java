@@ -1,4 +1,4 @@
-package MainApp.pedido;
+package pedido;
 
 public class Item {
    private int qde; 
