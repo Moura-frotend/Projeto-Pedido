@@ -8,7 +8,7 @@ import pedido.Produto;
 public class Main {
     public static void pedido(String[] args) {
         Pedido p1 = criarPedido();
-        System.out.println(criarPedido().getCliente());
+        System.out.println(p1.getCliente().getNome());
     }
 
     public static Pedido criarPedido(){
